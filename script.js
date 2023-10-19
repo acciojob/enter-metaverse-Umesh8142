@@ -2,5 +2,8 @@
 const btn =document.getElementById("enterBtn");
 btn.addEventListener("click", function() {
     const p =document.getElementById("status");
-	p.innerText="Entered Metaverse"
+	const h1 =document.createElement("h1");
+	h1.innerText="Entered Metaverse"
+	p.innerText=""
+	p.appendChild(h1);
 });
